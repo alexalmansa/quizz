@@ -20,15 +20,19 @@
             android:layout_height="wrap_content"
             android:background="@drawable/roundedbutton"
             android:textColor="#FDFDFD"
-            android:text="@string/true_button" />
+            android:text="@string/true_button"
+            android:layout_margin="10dp"
+            />
         <Button
 
             android:id="@+id/false_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/roundedbutton"
+            android:background="@drawable/roundedbutton1"
             android:textColor="#FDFDFD"
-            android:text="@string/false_button" />
+            android:text="@string/false_button"
+            android:layout_margin="10dp"
+            />
 
 
 
@@ -45,6 +49,13 @@
             android:layout_height="wrap_content"
             android:drawableRight="@drawable/arrow_left"
             android:drawablePadding="4dp" />
+
+        <Button
+            android:id="@+id/cheat_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:text="@string/cheat_button" />
     <Button
 
         android:id="@+id/next_button"
